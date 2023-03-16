@@ -1,15 +1,15 @@
 # Zumo Search And Rescue Assignment
 
 ## GUI
-Was built using processing and the G4P library...
+I used processing and the G4P library to create a GUI. The GUI allows for the mode to be selected, manual control of the robot, recieving messages from the zumo as well as sending instructions
 
 ## How To Build and Run
-The sketch that need to be uploaded onto the Zumo Robot is in the ... folder and is called ...
-First the robot needs the ZumoGUI sketch loaded onto it by ensuring Arduino is set to the Pololu A-Atar 32U4 board and clicking uplos with the robot plugged in via USB. Once uploaded the GUI can be launched by finding the sketch in the .... folder and is called ... .
+The sketch that need to be uploaded onto the Zumo Robot is in the ZumoProject folder and is called ZumoProject.ino.
+First the robot needs the ZumoProject.ino sketch loaded onto it by ensuring Arduino is set to the Pololu A-Atar 32U4 board and clicking uplos with the robot plugged in via USB. Once uploaded the GUI can be launched by finding the sketch in the ZumoGUI folder and is called ZumoGUI.pde, this can be opening in processing to run.
 Once the GUI has been run the Zumo robot should be turned on and will be ready to go.
-
-Once its turned on the yellow light with turn on while the gyro is calibrating, Its important the robot isnt touched while this is happening.
-Once this has been completed and the yellow light has turned off the A button can be pressed on the robot to start the line calibration. Once this has completed the GUI will aske for a mode to be selected.
+## SetUp
+Once its turned on the yellow light will turn on while the gyro is calibrating, Its important the robot isnt touched while this is happening.
+Once this has been completed and the yellow light has turned off the A button can be pressed on the robot to start the line calibration. Once this has completed the GUI will ask for a mode to be selected.
 
 ## Mode 1
   On the GUI you can select the Remote Control Button to change to mode 1.
@@ -17,7 +17,7 @@ Once this has been completed and the yellow light has turned off the A button ca
   (s) will become available. The robot can be controlled by clicking these 
   buttons or by pressing the corresponding keys.
   
-  // To search a room the scan button can be used to activate the scanning procedure
+  To search a room the scan button can be used to activate the scanning procedure. The GUI will as if it a Left or Right room that needs scanning.
 
 ## Mode 2
   On the GUI you can select the Semi-Auto button to change to mode 2.
