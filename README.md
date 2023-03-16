@@ -5,7 +5,11 @@ I used processing and the G4P library to create a GUI. The GUI allows for the mo
 
 ## How To Build and Run
 The sketch that need to be uploaded onto the Zumo Robot is in the ZumoProject folder and is called ZumoProject.ino.
-First the robot needs the ZumoProject.ino sketch loaded onto it by ensuring Arduino is set to the Pololu A-Atar 32U4 board and clicking uplos with the robot plugged in via USB. Once uploaded the GUI can be launched by finding the sketch in the ZumoGUI folder and is called ZumoGUI.pde, this can be opening in processing to run.
+First the robot needs the ZumoProject.ino sketch loaded onto it by ensuring Arduino is set to the Pololu A-Atar 32U4 board and clicking uplos with the robot plugged in via USB. Once uploaded the GUI can be launched by finding the sketch in the ZumoGUI folder and is called ZumoGUI.pde, this can be open and run in processing.
+To make sure the Xbees can communicate ensure the controller Xbee is plugged in via USB and the reciever is plugged into the Zumo. In the GUI sketch the COM port will need to be set on line 39 to the port the controller Xbee is plugged into.
+
+`String portName = "COM6";`
+
 Once the GUI has been run the Zumo robot should be turned on and will be ready to go.
 ## SetUp
 Once its turned on the yellow light will turn on while the gyro is calibrating, Its important the robot isnt touched while this is happening.
