@@ -17,7 +17,7 @@ Once this has been completed and the yellow light has turned off the A button ca
   (s) will become available. The robot can be controlled by clicking these 
   buttons or by pressing the corresponding keys.
   
-  To search a room the scan button can be used to activate the scanning procedure. The GUI will as if it a Left or Right room that needs scanning.
+  To search a room the scan button can be used to activate the scanning procedure. The GUI will ask if a Left or Right room that needs scanning.
 
 ## Mode 2
   On the GUI you can select the Semi-Auto button to change to mode 2.
